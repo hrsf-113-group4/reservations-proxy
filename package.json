@@ -1,0 +1,24 @@
+{
+  "name": "reservations-proxy",
+  "version": "1.0.0",
+  "description": "FEC proxy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrsf113-group-4/reservations-proxy.git"
+  },
+  "author": "Peter Ryzanych",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrsf113-group-4/reservations-proxy/issues"
+  },
+  "homepage": "https://github.com/hrsf113-group-4/reservations-proxy#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
