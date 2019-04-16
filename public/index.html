@@ -2,19 +2,27 @@
 <html lang='en'>
   <head>
     <meta charset='UTF-8'>
-    <link rel='stylesheet' href='/style.css'>
+    <link rel='stylesheet' type='text/css' href='style.css'>
     <title>FEC Proxy</title>
   </head>
   <body>
-    <div id='header'></div>
-    <div id='overview'></div>
-    <div id='reservations'></div>
-    <div id='Menu'></div>
-    <div id='reviews'></div>
-    <script src="http://localhost:3001/bundle.js"></script>
-    <script src="http://localhost:3002/bundle.js"></script>
-    <!-- <script src="http://localhost:3003/bundle.js"></script> -->
-    <script src="http://localhost:3004/bundle.js"></script>
+    <div id='main'>
+      <div id='headers'>
+        <div id='header'></div>
+      </div>
+      <div id='left'>
+        <div id='overview'></div>
+        <div id='menus'></div>
+        <div id='reviews'></div>
+      </div>
+      <div id='right'>
+        <div id='reservations'></div>
+      </div>
+    </div>
+    <script src="http://ec2-18-220-248-250.us-east-2.compute.amazonaws.com/bundle.js"></script>
+    <script src="http://ec2-18-144-51-121.us-west-1.compute.amazonaws.com/bundle.js"></script>
+    <script src="http://ec2-13-52-98-101.us-west-1.compute.amazonaws.com/bundle.js"></script>
+    <script src="http://ec2-54-161-76-60.compute-1.amazonaws.com/bundle.js"></script>
     </script>
   </body>
 </html>

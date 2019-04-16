@@ -1,2 +1,8 @@
 proxy
 node_modules/
+proxy.pem
+.dockerignore
+Dockerfile
+proxserv.pem
+.gitignore
+lasttry.pem
